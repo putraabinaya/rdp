@@ -9,7 +9,6 @@ echo "	2.) Windows 11"
 echo "	3.) Windows 2012 R2"
 echo "	4.) Windows 2016"
 echo "	5.) Windows 2019"
-echo "	6.) Windows 2022"
 
 read -p "Pilih [1]: " selectos
 
@@ -21,7 +20,6 @@ case "$selectos" in
 	3) selectos="http://drive.muavps.net/windows/Windows2012r2.gz";;
 	4) selectos="http://drive.muavps.net/windows/Windows2016.gz";;
 	5) selectos="http://drive.muavps.net/windows/Windows2019.gz";;
-	6) selectos="http://drive.muavps.net/windows/Windows2022.gz";;
 	*) echo "pilihan salah"; exit;;
 esac
 
